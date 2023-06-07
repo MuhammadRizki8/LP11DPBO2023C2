@@ -1,10 +1,11 @@
 <?php
 
 
-include("KontrakView.php");
+// include("KontrakPasienView.php");
+// include(".\Kontrak\KontrakPasien");
 include("presenter/ProsesPasien.php");
 
-class TampilPasien implements KontrakView
+class TampilPasien implements KontrakPasienView
 {
 	private $prosespasien;
 	private $tpl;

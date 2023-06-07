@@ -1,8 +1,9 @@
 <?php
-include("KontrakView.php");
+// include("KontrakPasienView.php");
+// include(".\Kontrak\KontrakPasien");
 include("presenter/ProsesPasien.php");
 
-class FormPasien implements KontrakView
+class FormPasien implements KontrakPasienView
 {
 	private $prosespasien; //presenter yang dapat berinteraction_btn langsung dengan view
 	private $tpl;
